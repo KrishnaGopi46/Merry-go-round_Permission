@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>condition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+<script>
+
+	let age=16;
+	let permission="yes";
+	
+	if(age>=16 && age<50){
+		console.log("you are allowed");
+	}
+	else if(age<16){
+		if(permission=="yes"){
+			console.log("you are allowed");
+		}
+		else{
+			console.log("get the parent permission");
+		}
+	}
+	else{
+		console.log("you are not allowed");
+	}
+	
+	
+</script>
+
+
+</body>
+</html>
